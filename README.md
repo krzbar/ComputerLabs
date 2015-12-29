@@ -1,8 +1,8 @@
 # Computer Labs @ StiMa
 
-In this repository we store information regarding the computer labs @ IDA. 
+Här finns information och dokumentation om datorsalarna kopplade till StiMa, IDA, LiU.
 
-Information regarding comupter exams in PC-Pul, see ComputerExams.
+Information om datortentamina i PC-Pul finns i [ComputerExams](https://github.com/STIMALiU/ComputerLabs/tree/master/ComputerExams).
 
-Information regarding which R packages that are installed in the computer labs see R.
+Information om R och vilka R-paket som finns installerade finns i [ComputerExams](https://github.com/STIMALiU/ComputerLabs/tree/master/R).
 

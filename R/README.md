@@ -11,7 +11,7 @@ Som default används den senaste versionen av R i R-Studio.
 R-Studio uppdateras när en ny version kommer. 
 
 ## R-paket
-De R-paket som finns förinstallerade på alla PC-Pular från CRAN finns [här](https://github.com/MansMeg/R_at_IDA/blob/master/Packages/cran_packages.csv) och de paket som finns installerade från github finns [här](https://github.com/MansMeg/R_at_IDA/blob/master/Packages/github_packages.csv).
+De R-paket som finns förinstallerade på alla PC-Pular från CRAN finns [här](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/cran_packages.csv) och de paket som finns installerade från github finns [här](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/github_packages.csv).
 
 Under 'user' i csv-filerna finns de lärare som använder paketen som TUS kan kontakta om det är några problem vid uppdateringar.
 
@@ -27,5 +27,5 @@ installed.packages()
 Vid datortentor anger läraren vilken R-version som ska användas.
 
 ## För TUS
-För att installera samtliga paket som behövs körs [följande](https://raw.githubusercontent.com/MansMeg/R_at_IDA/master/install_packages_IDA.R) skriptfil i R.
+För att installera samtliga paket som behövs körs [följande](https://github.com/STIMALiU/ComputerLabs/blob/master/R/install_all_packages.R) skriptfil i R.
 
