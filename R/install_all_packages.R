@@ -6,8 +6,8 @@ if(!"repmis" %in% rownames(inst_pack_list)) install.packages("repmis")
 if(!"devtools" %in% rownames(inst_pack_list)) install.packages("devtools")
 
 # Get list of needed packages from github
-needed_cran_packages <- repmis::source_data("https://raw.githubusercontent.com/STIMALiU/R_at_IDA/master/Packages/cran_packages.csv", stringsAsFactors = FALSE)
-needed_github_packages <- repmis::source_data("https://raw.githubusercontent.com/STIMALiU/R_at_IDA/master/Packages/github_packages.csv", stringsAsFactors = FALSE)
+needed_cran_packages <- repmis::source_data("https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/Packages/cran_packages.csv", stringsAsFactors = FALSE)
+needed_github_packages <- repmis::source_data("https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/Packages/github_packages.csv", stringsAsFactors = FALSE)
 
 # Install all previously noninstalled packges from CRAN
 to_install <- needed_cran_packages[!needed_cran_packages[,1] %in% rownames(inst_pack_list), 1]
