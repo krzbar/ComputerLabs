@@ -1,6 +1,6 @@
 # Computer Labs @ StiMa
 
-HÃ¤r finns information och dokumentation om datorsalarna kopplade till StiMa, IDA, LiU.
+Här finns information och dokumentation om datorsalarna kopplade till StiMa, IDA, LiU.
 
 Information om datortentamina i PC-Pul finns i [ComputerExams](https://github.com/STIMALiU/ComputerLabs/tree/master/ComputerExams).
 
