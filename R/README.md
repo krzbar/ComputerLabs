@@ -1,31 +1,32 @@
-# R i PC-Pularna pÃ¥ IDA
+# R i PC-Pularna på IDA
 
-Nedan finns information hantering av R-versioner och olika paket i PC-Pularna pÃ¥ IDA.
+Nedan finns information hantering av R-versioner och olika paket i PC-Pularna på IDA.
 
 ## Olika R versioner
 
-Det finns flera parallella versioner av R pÃ¥ datorerna i PC-Pularna. De finns som egna ikoner i startmenyn. I R-Studio kan man vÃ¤lja vilken version vi vill anvÃ¤nda pÃ¥ fÃ¶ljande [sÃ¤tt](https://support.rstudio.com/hc/en-us/articles/200486138-Using-Different-Versions-of-R). Det gÃ¶r att en uppdatering kan gÃ¶ras utan att det blir problem fÃ¶r de andra lÃ¤rarna.
+Det finns flera parallella versioner av R på datorerna i PC-Pularna. De finns som egna ikoner i startmenyn. I R-Studio kan man välja vilken version vi vill använda på följande [sätt](https://support.rstudio.com/hc/en-us/articles/200486138-Using-Different-Versions-of-R). Det gör att en uppdatering kan göras utan att det blir problem för de andra lärarna.
 
-Som default anvÃ¤nds den senaste versionen av R i R-Studio.
+Som default används den senaste versionen av R i R-Studio.
 
-R-Studio uppdateras nÃ¤r en ny version kommer. 
+R-Studio uppdateras när en ny version kommer. 
 
 ## R-paket
-De R-paket som finns fÃ¶rinstallerade pÃ¥ alla PC-Pular frÃ¥n CRAN finns [hÃ¤r](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/cran_packages.csv) och de paket som finns installerade frÃ¥n github finns [hÃ¤r](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/github_packages.csv).
+De R-paket som finns förinstallerade på alla PC-Pular från CRAN finns [här](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/cran_packages.csv) och de paket som finns installerade från github finns [här](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/github_packages.csv).
 
-Under 'user' i csv-filerna finns de lÃ¤rare som anvÃ¤nder paketen som TUS kan kontakta om det Ã¤r nÃ¥gra problem vid uppdateringar.
+Under 'user' i csv-filerna finns de lärare som använder paketen som TUS kan kontakta om det är några problem vid uppdateringar.
 
-Studenter kan alltid sjÃ¤lva installera paket om de vill - dock ej under tentor.
+Studenter kan alltid själva installera paket om de vill - dock ej under tentor.
 
-FÃ¶r att se versionerna fÃ¶r de paket som finns installerade fÃ¶r en given R-version:
+För att se versionerna för de paket som finns installerade för en given R-version:
 ```
 installed.packages()
 ```
 
 ## Tentamina
 
-Vid datortentor anger lÃ¤raren vilken R-version som ska anvÃ¤ndas.
+Vid datortentor anger läraren vilken R-version som ska användas.
 
-## FÃ¶r TUS
-FÃ¶r att installera samtliga paket som behÃ¶vs kÃ¶rs [fÃ¶ljande](https://github.com/STIMALiU/ComputerLabs/blob/master/R/install_all_packages.R) skriptfil i R.
+## För TUS
+För att installera samtliga paket som behövs körs [följande](https://github.com/STIMALiU/ComputerLabs/blob/master/R/install_all_packages.R) skriptfil i R.
+För att testa om pakten går att ladda in i en R-session, öppna R/RStudio och kör [följande](https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/check_R_packages.R) skriptfil. 
 
