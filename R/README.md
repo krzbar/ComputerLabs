@@ -27,6 +27,6 @@ installed.packages()
 Vid datortentor anger läraren vilken R-version som ska användas.
 
 ## För TUS
-För att installera samtliga paket som behövs körs [följande](https://github.com/STIMALiU/ComputerLabs/blob/master/R/install_all_packages.R) skriptfil i R.
+För att installera samtliga paket som behövs körs [följande](https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/install_all_packages.R) skriptfil i R.
 För att testa om pakten går att ladda in i en R-session, öppna R/RStudio och kör [följande](https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/check_R_packages.R) skriptfil. 
 
