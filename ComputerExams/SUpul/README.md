@@ -1,4 +1,4 @@
-# Info on the computer exam system in SU-pul (Linux)
+# Info about the computer exam system in SU-pul (Linux)
 
 - Information about the [communication client](https://www.ida.liu.se/~examadm/SC/) in the exam system.
 
