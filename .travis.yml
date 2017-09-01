@@ -13,4 +13,8 @@ before_install:
 after_success:
  - cd ..
  - bash tests/travis_tests.sh
+ - . STIMA_ERROR.sh
+ - cat STIMA_ERROR.sh
+ - echo $STIMA_ERROR
+ - exit $STIMA_ERROR
  
