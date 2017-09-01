@@ -14,3 +14,6 @@ bash R/bash/install_all_packages.sh
 tr_exit=$?; echo $tr_exit; if [[ $tr_exit != 0 ]]; then exit $tr_exit; fi
 
 echo $(date +"%T")
+
+# Set STIMA Error to 0 (to not break Travis)
+echo "STIMA_ERROR=0" > "STIMA_ERROR.sh"
