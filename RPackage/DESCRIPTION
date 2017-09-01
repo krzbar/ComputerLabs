@@ -9,6 +9,6 @@ Description: Install packages used in R courses at Stima, Linkoping University. 
 License: BSD_2_clause + file LICENSE
 Imports: 
   checkmate, 
-  googlesheets, 
+  gsheet, 
   devtools
 RoxygenNote: 6.0.1
