@@ -1,11 +1,11 @@
 Package: stimaRpackages
 Type: Package
-Title: Install packages used in R courses at Stima, Linkoping University
+Title: Install packages used in R courses at Stima, Linkoping University.
 Version: 0.1
 Date: 2017-09-01
 Author: Mans Magnusson
 Maintainer: Mans Magnusson <mans.magnusson@liu.se>
-Description: Install packages used in R courses at Stima, Linkoping University
+Description: Install packages used in R courses at Stima, Linkoping University. Google Spreadsheet is handled by Oleg.
 License: GPL3
 Imports: 
   checkmate, 
