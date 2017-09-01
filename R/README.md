@@ -1,8 +1,8 @@
-# R i PC-Pularna på IDA
+# R på Stima, IDA, Linköpings Universitet
 
 Nedan finns information hantering av R-versioner och olika paket i PC-Pularna på IDA.
 
-## Olika R versioner
+## Olika R versioner i PC-Pularna
 
 Det finns flera parallella versioner av R på datorerna i PC-Pularna. De finns som egna ikoner i startmenyn. I R-Studio kan man välja vilken version vi vill använda på följande [sätt](https://support.rstudio.com/hc/en-us/articles/200486138-Using-Different-Versions-of-R). Det gör att en uppdatering kan göras utan att det blir problem för de andra lärarna.
 
@@ -10,7 +10,9 @@ Som default används den senaste versionen av R i R-Studio.
 
 R-Studio uppdateras när en ny version kommer. 
 
-## R-paket
+
+## R-paket i olika kurser
+
 Det finns ett antal olika R paket som används på olika kurser. Oleg Sysoev har ett Google Spreedsheet där respektive lärare anger vilka R-paket som används i respektive kurs. 
 
 För att installera de R-paket som används i olika kurser har ett mindre R paket tagits fram för att förenkla för lärare och studenter. 
@@ -43,7 +45,7 @@ För att installer paketen som krävs för en given kurs är det bara att köra (exem
 
 Vid datortentor anger läraren vilken R-version som ska användas.
 
-## För TUS
+## För TUS (installera alla R-paket)
 För att installera samtliga paket från bash, kör:
 ```
 bash R/bash/install_all_packages.sh
