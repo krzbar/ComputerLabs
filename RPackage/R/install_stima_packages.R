@@ -23,7 +23,7 @@ install_stima_packages <- function(course = NULL){
   # Install CRAN stuff
   cran_packages <- gs_df[[1]][is.na(gs_df[[2]])]
   if(length(cran_packages) > 0){
-    install.packages(github_packages, repos = "https://cloud.r-project.org")
+    utils::install.packages(github_packages, repos = "https://cloud.r-project.org")
   }
   
   # Install GitHub stuff
