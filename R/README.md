@@ -11,16 +11,17 @@ Som default används den senaste versionen av R i R-Studio.
 R-Studio uppdateras när en ny version kommer. 
 
 ## R-paket
-De R-paket som finns förinstallerade på alla PC-Pular från CRAN finns [här](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/cran_packages.csv) och de paket som finns installerade från github finns [här](https://github.com/STIMALiU/ComputerLabs/blob/master/R/Packages/github_packages.csv).
+Det finns ett antal olika R paket som används på olika kurser. Oleg Sysoev har ett Google Spreedsheet där respektive lärare anger vilka R-paket som används i respektive kurs. 
 
-Under 'user' i csv-filerna finns de lärare som använder paketen som TUS kan kontakta om det är några problem vid uppdateringar.
+För att installera de R-paket som används i olika kurser har ett mindre R paket tagits fram för att förenkla för lärare och studenter. 
 
-Studenter kan alltid själva installera paket om de vill - dock ej under tentor.
-
-För att se versionerna för de paket som finns installerade för en given R-version:
+För att installera paketet ```stimaRpackages``` kör följande kod:
 ```
-installed.packages()
+install.packages("devtools") # If not installed
+devtools::install_github("STIMALiU/ComputerLabs", subdir = "RPackage")
 ```
+
+
 
 ## Tentamina
 
