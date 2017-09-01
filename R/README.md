@@ -17,17 +17,34 @@ För att installera de R-paket som används i olika kurser har ett mindre R paket 
 
 För att installera paketet ```stimaRpackages``` kör följande kod:
 ```
-install.packages("devtools") # If not installed
-devtools::install_github("STIMALiU/ComputerLabs", subdir = "RPackage")
+> install.packages("devtools") # If not installed
+> devtools::install_github("STIMALiU/ComputerLabs", subdir = "RPackage")
 ```
 
+För att installera samtliga R paket som används vid Stima, kör:
+```
+> stimaRpackages::install_stima_packages()
+```
 
+Det är också möjligt att installera paketen som behövs för en enskild kurs. De kurser som använder R plockas fram med
+```
+> stimaRpackages::get_stima_r_courses()
+[1] "732A98 Oleg Sysoev"         "732A94 Krzysztof Bartoszek" "732G17 Krzysztof Bartoszek"
+[4] "732A90 Krzysztof Bartoszek" "732G31 Isak Hietala"        "732G30 Isak Hietala"       
+[7] "732G12 Isak Hietala"        "732G38 Isak Hietala"        "732G39 Isak Hietala" 
+```
+
+För att installer paketen som krävs för en given kurs är det bara att köra (exempelvis):
+```
+> stimaRpackages::install_stima_packages(course = "732G30 Isak Hietala")
+```
 
 ## Tentamina
 
 Vid datortentor anger läraren vilken R-version som ska användas.
 
 ## För TUS
-För att installera samtliga paket som behövs körs [följande](https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/install_all_packages.R) skriptfil i R.
-För att testa om pakten går att ladda in i en R-session, öppna R/RStudio och kör [följande](https://raw.githubusercontent.com/STIMALiU/ComputerLabs/master/R/check_R_packages.R) skriptfil. 
-
+För att installera samtliga paket från bash, kör:
+```
+bash R/bash/install_all_packages.sh
+```
