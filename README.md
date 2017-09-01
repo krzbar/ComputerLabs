@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/STIMALiU/ComputerLabs.svg?branch=master)](https://travis-ci.org/STIMALiU/ComputerLabs)
+
 # Computer Labs @ StiMa
 
 Här finns information och dokumentation om datorsalarna kopplade till StiMa, IDA, LiU.
