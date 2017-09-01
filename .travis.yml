@@ -10,5 +10,6 @@ before_install:
  - cd RPackage
  
 after_success:
+ - cd ..
  - bash tests/travis_tests.sh
  
