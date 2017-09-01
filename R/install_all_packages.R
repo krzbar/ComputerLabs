@@ -1,3 +1,5 @@
 install.packages("devtools", repos = "https://cloud.r-project.org")
+cat("devtools installed...")
 devtools::install_github("STIMALiU/ComputerLabs", subdir = "RPackage")
+cat("stimaRpackages...")
 stimaRpackages::install_stima_packages()
