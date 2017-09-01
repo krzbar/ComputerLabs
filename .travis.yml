@@ -9,4 +9,6 @@ warnings_are_errors: true
 before_install:
  - cd RPackage
  
+after_success:
+ - bash tests/travis_tests.sh
  
